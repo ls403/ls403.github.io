@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>忘记密码</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            
+        }
+
+        p {
+            line-height: 1.5; /* 像素值 */
+            
+        }
+        .container {
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            
+        }
+
+        h2 {
+            margin-top: 0;
+            letter-spacing: 2px; /* 调整这里的值以改变字之间的间距 */
+            font-size: 20px; /* 调整这里的值以改变字体大小 */
+          
+        }
+
+        label {
+            display: block;
+            margin-top: 20px;
+            font-weight: bold;
+            text-align: center;
+            
+        }
+
+        input[type="email"] {
+            width: 90%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 20px;
+            background-color: #79bc96;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            text-align: center;
+            
+        }
+
+        button:hover {
+            background-color: #59be16fb;
+            text-align: center;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>忘记密码</h2>
+        <form id="forgotPasswordForm">
+            <label for="email">请输入您的电子邮件地址:</label>
+           
+            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            <button type="submit">发送密码重置链接</button>
+        </form>
+    </div>
+</body>
+</html>

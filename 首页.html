@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>金雕巡航系统</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('背景图片.jpg'); /* 更改为实际的背景图片文件名 */
+            background-size: cover;
+        }
+
+        header {
+            background-color: #9e9e9e;
+            color: #fff;
+            padding: 10px 0;
+            margin-top: 20px; /* 增加距离 */
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        .logo {
+            display: block;
+            max-width: 100px;
+            height: auto;
+
+        }
+
+        .search-bar {
+            flex-grow: 1;
+            margin: 0 20px;
+            max-width: 300px;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 8px;
+            border: none;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .search-button {
+            position: absolute;
+            top: 50%;
+            right: 8px;
+            transform: translateY(-50%);
+            background-color: #fff;
+            border: none;
+            padding: 5px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #content {
+            text-align: center;
+            margin: 20px;
+        }
+
+        .product-image {
+            max-width: calc(400%); /* 调整宽度，与页面左右两侧相距1cm */
+            height: auto;
+            border: 5px solid #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .tongyong {
+            max-width: calc(100%); /* 调整宽度，与页面左右两侧相距1cm */
+            height: auto;
+            border: 5px solid #fff;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .section {
+            background-color: #fff;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="logo.jpg" alt="产品Logo" class="logo"> <!-- 更改为实际的Logo图片文件名 -->
+            <div class="search-bar">
+                <input type="text" class="search-input" placeholder="搜索...">
+                <button class="search-button">&#128269;</button>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li><a href="#">产品中心</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">其他</a></li>
+                    <li><a href="#">登录</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="content">
+        <img src="自适应图片.jpg" alt="自适应图片" class="product-image"> <!-- 更改为实际的自适应图片文件名 -->
+        <div class="section">
+            <h2>工作室的具体介绍</h2>
+            <img src="会议.jpg" alt="自适应图片" class="tongyong">
+            <p>工作室名称：金雕火防巡检科技工作室</p>
+                <p>工作室宗旨：用科技防患于未然</p>
+                <p>工作室理念：俯首苦心钻研，抬首大步向前</p>
+                <p>工作室口号：科技拯救世界，共守地球之肺</p>
+                <p>工作室愿景：研制智能密集型高新技术产品，追求无人机森林火灾监测预警与灭火协助</p>
+                
+        </div>
+        <div class="section">
+            <h2>项目的基本情况</h2>
+            <img src="无人机设备.jpg" alt="自适应图片" class="tongyong">
+            <p>产品主要应用于森林火灾的防范检测，充分实现森林火情的预警与定位。在森林范围内开展自动化、智能化和专用化的信息采集，准确获取该区域内的自然环境、森林火情等空间遥感信息，</p>
+            <p>实现以安防为主、救援为辅的多端融合系统，为消防预警、现场勘测、灾情处置等提供针对性处理措施。</p>
+        </div>
+        <!-- 在此添加更多部分 -->
+    </div>
+</body>
+</html>
